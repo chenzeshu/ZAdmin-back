@@ -3,14 +3,10 @@
 namespace App\Http\Controllers\API;
 
 use App\Contract;
-use App\Customer;
 use App\Repositories\ContractsRepository;
-use Illuminate\Http\File;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Storage;
-use Zend\Stdlib\ArrayObject;
 
 class contractsController extends Controller
 {
